@@ -14,12 +14,16 @@ namespace SE2
             // I havent created any branches yet... let test the changes first on this "master" branch.
 
             // now, I have created a new branch "Class-c" and merged it with the "master" branch.
-            //these last two lines of typing should appear only in class-c branch after syncing it to GitHub repository!!!
+            //these last two lines of typing should appear to branch "master and "class-c" branch after syncing it to GitHub repository!!!
 
             //I created a third branch called "class-b" and I merged it with branch "master" as well.
-            // Now the changes will appear to branch "class-b" and to "master" branch. 
-            // the changes that will appear to branch "master" and "class-b" branch wont appear to "class-c" branch,
-            //and the changes that appear to "master" and "class-c" wont appear to "class-b"
+            // Now, branch "class-b" can see all the changes but branch "master" only sees the first change and branch "class-c" sees - 
+            //the first and the second change.
+
+            //Now that I have pulled requests from both branches "class-c" and "class-b" 
+            //I can see that the changes appeared to branch "class-b" were also the same changes that appeared to branch "master" but not to branch "class-c"
+
+
         }
     }
 }
