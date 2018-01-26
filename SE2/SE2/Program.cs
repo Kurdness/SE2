@@ -12,6 +12,9 @@ namespace SE2
         {
             // This is Software Engineering assignment number 2 !!!
             // I havent created any branches yet... let test the changes first on this "master" branch.
+
+            // now, I have created a new branch "Class-c" and merged it with the "master" branch.
+            //these last two lines of typing should appear only in class-c branch after syncing it to GitHub repository!!!
         }
     }
 }
