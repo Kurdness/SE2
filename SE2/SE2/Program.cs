@@ -17,9 +17,10 @@ namespace SE2
             //these last two lines of typing should appear only in class-c branch after syncing it to GitHub repository!!!
 
             //I created a third branch called "class-b" and I merged it with branch "master" as well.
-            // Now the changes will appear to branch "class-b" and to "master" branch. 
-            // the changes that will appear to branch "master" and "class-b" branch wont appear to "class-c" branch,
-            //and the changes that appear to "master" and "class-c" wont appear to "class-b"
+            // Now, branch "class-b" can see all the changes but branch "master" only sees the first change and branch "class-c" sees - 
+            //the first and the second change.
+
+          
         }
     }
 }
